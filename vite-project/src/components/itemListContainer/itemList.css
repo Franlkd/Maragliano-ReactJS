@@ -1,0 +1,104 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.ver-mas {
+    text-decoration-line: none;
+    text-decoration: none;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    transition: background-color 0.56s;
+}
+
+.ver-mas:hover {
+    background-color: #ddd;
+}
+
+
+/* Contenedor del ItemList */
+.bodyItem {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/* Estilo del título */
+h1 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Contenedor de la lista de productos */
+.product-list {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.8s ease, color 0.8s;
+    width: 30%; /* Ajusta el ancho para que varios productos quepan en la misma fila */
+    box-sizing: border-box; /* Para asegurarte de que los márgenes y rellenos no afecten el ancho total */
+    margin: 10px; /* Agregar algo de espacio entre productos */
+}
+
+/* Contenedor padre que acomoda los productos en filas */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Espacio uniforme entre productos */
+    gap: 20px; /* Espacio entre los productos */
+}
+
+/* Hover en productos */
+.product-list:hover {
+    transform: scale(1.03);
+    background-color: #f5f5f5;
+    color: #000;
+}
+
+/* Información de cada producto */
+.product-list h2 {
+    font-size: 1rem;
+    color: #555;
+    margin: 3px 0;
+    text-align: center;
+}
+
+/* Imagen de la PC */
+.imgPC {
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+
+/* Si no hay productos */
+.not-found {
+    font-size: 1.3rem;
+    color: #888;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .product-list {
+        width: 48%; /* Dos productos por fila en pantallas más pequeñas */
+    }
+}
+
+@media (max-width: 480px) {
+    .product-list {
+        width: 100%; /* Un producto por fila en pantallas muy pequeñas */
+    }
+}

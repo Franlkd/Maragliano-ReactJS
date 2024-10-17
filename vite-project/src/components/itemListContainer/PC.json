@@ -1,0 +1,47 @@
+[
+    {
+        "Pc_name" : "PC-GAMER i9 13900k",
+        "price" : 1500,
+        "pc_Img" : "http://dummyimage.com/200x100.png/ff4444/ffffff"
+    },
+    {
+        "Pc_name" : "PC-GAMER Ryzen 9 7950X",
+        "price" : 1500,
+        "pc_Img" : "http://dummyimage.com/200x100.png/ff4444/ffffff"
+    },
+    {
+        "Pc_name" : "PC-GAMER i7 13700k",
+        "price" : 1500,
+        "pc_Img" : "http://dummyimage.com/200x100.png/ff4444/ffffff"
+    },
+    {
+        "Pc_name" : "PC-GAMER Ryzen 7 7800X",
+        "price" : 1500,
+        "pc_Img" : "http://dummyimage.com/200x100.png/ff4444/ffffff"
+    },
+    {
+        "Pc_name" : "PC-GAMER i5 13600k",
+        "price" : 1500,
+        "pc_Img" : "http://dummyimage.com/200x100.png/ff4444/ffffff"
+    },
+    {
+        "Pc_name" : "PC-GAMER Ryzen 5 7600X",
+        "price" : 1500,
+        "pc_Img" : "http://dummyimage.com/200x100.png/ff4444/ffffff"
+    },
+    {
+        "Pc_name" : "PC-GAMER i7 12700F",
+        "price" : 1500,
+        "pc_Img" : "http://dummyimage.com/200x100.png/ff4444/ffffff"
+    },
+    {
+        "Pc_name" : "PC-GAMER Ryzen 9 5900X",
+        "price" : 1500,
+        "pc_Img" : "http://dummyimage.com/200x100.png/ff4444/ffffff"
+    },
+    {
+        "Pc_name" : "PC-GAMER Ryzen 5 5600G",
+        "price" : 1500,
+        "pc_Img" : "http://dummyimage.com/200x100.png/ff4444/ffffff"
+    }
+]

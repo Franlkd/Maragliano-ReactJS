@@ -1,0 +1,97 @@
+[
+    {
+      "PC": 1,
+      "CPU": "Intel Core i9-13900K",
+      "GPU": "NVIDIA GeForce RTX 4090",
+      "RAM": "32GB DDR5 5200MHz",
+      "Almacenamiento": "1TB NVMe SSD",
+      "Fuente_de_Poder": "850W 80+ Gold",
+      "Refrigeración": "Refrigeración líquida AIO 360mm",
+      "Placa_Madre": "ASUS ROG Strix Z790-E",
+      "Gabinete": "Corsair iCUE 4000X RGB",
+      "Img_PC": "http://dummyimage.com/250x.png/ff4444/ffffff"
+    },
+    {
+      "PC": 2,
+      "CPU": "AMD Ryzen 9 7950X",
+      "GPU": "AMD Radeon RX 7900 XTX",
+      "RAM": "32GB DDR5 6000MHz",
+      "Almacenamiento": "2TB NVMe SSD",
+      "Fuente_de_Poder": "1000W 80+ Platinum",
+      "Refrigeración": "Refrigeración líquida AIO 360mm",
+      "Placa_Madre": "MSI MPG B650 Carbon WiFi",
+      "Gabinete": "Lian Li PC-O11 Dynamic",
+      "Img_PC": "http://dummyimage.com/250x.png/ff4444/ffffff"
+    },
+    {
+      "PC": 3,
+      "CPU": "Intel Core i7-13700KF",
+      "GPU": "NVIDIA GeForce RTX 4070 Ti",
+      "RAM": "16GB DDR4 3600MHz",
+      "Almacenamiento": "1TB NVMe SSD",
+      "Fuente_de_Poder": "750W 80+ Gold",
+      "Refrigeración": "Refrigeración por aire Noctua NH-U12A",
+      "Placa_Madre": "Gigabyte Z690 Aorus Pro",
+      "Gabinete": "NZXT H510 Elite",
+      "Img_PC": "http://dummyimage.com/250x.png/ff4444/ffffff"
+    },
+    {
+      "PC": 4,
+      "CPU": "AMD Ryzen 7 7800X3D",
+      "GPU": "NVIDIA GeForce RTX 4080",
+      "RAM": "32GB DDR5 5200MHz",
+      "Almacenamiento": "2TB NVMe SSD",
+      "Fuente_de_Poder": "850W 80+ Platinum",
+      "Refrigeración": "Refrigeración líquida AIO 240mm",
+      "Placa_Madre": "ASRock X670E Taichi",
+      "Gabinete": "Phanteks Eclipse P500A",
+      "Img_PC": "http://dummyimage.com/250x.png/ff4444/ffffff"
+    },
+    {
+      "PC": 5,
+      "CPU": "Intel Core i5-13600K",
+      "GPU": "NVIDIA GeForce RTX 3060 Ti",
+      "RAM": "16GB DDR4 3200MHz",
+      "Almacenamiento": "1TB NVMe SSD",
+      "Fuente_de_Poder": "650W 80+ Bronze",
+      "Refrigeración": "Refrigeración por aire be quiet! Pure Rock 2",
+      "Placa_Madre": "MSI MAG B660 Tomahawk",
+      "Gabinete": "Fractal Design Meshify C",
+      "Img_PC": "http://dummyimage.com/250x.png/ff4444/ffffff"
+    },
+    {
+      "PC": 6,
+      "CPU": "AMD Ryzen 5 7600X",
+      "GPU": "AMD Radeon RX 6800 XT",
+      "RAM": "16GB DDR5 5600MHz",
+      "Almacenamiento": "500GB NVMe SSD",
+      "Fuente_de_Poder": "750W 80+ Gold",
+      "Refrigeración": "Refrigeración por aire Cooler Master Hyper 212",
+      "Placa_Madre": "Gigabyte B650 Aorus Elite AX",
+      "Gabinete": "Cooler Master MasterBox TD500 Mesh",
+      "Img_PC": "http://dummyimage.com/250x.png/ff4444/ffffff"
+    },
+    {
+      "PC": 7,
+      "CPU": "Intel Core i7-12700F",
+      "GPU": "NVIDIA GeForce RTX 3080",
+      "RAM": "32GB DDR4 3600MHz",
+      "Almacenamiento": "1TB NVMe SSD",
+      "Fuente_de_Poder": "850W 80+ Gold",
+      "Refrigeración": "Refrigeración líquida AIO 240mm",
+      "Placa_Madre": "ASUS TUF Gaming Z690-Plus",
+      "Gabinete": "Corsair 5000D Airflow"
+    },
+    {
+      "PC": 8,
+      "CPU": "AMD Ryzen 9 5900X",
+      "GPU": "NVIDIA GeForce RTX 3070",
+      "RAM": "32GB DDR4 3600MHz",
+      "Almacenamiento": "1TB NVMe SSD",
+      "Fuente_de_Poder": "750W 80+ Gold",
+      "Refrigeración": "Refrigeración líquida AIO 280mm",
+      "Placa_Madre": "ASUS ROG Strix B550-F",
+      "Gabinete": "Thermaltake Core P3"
+    }
+  ]
+  
