@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from "react";
-import pedirDatosPC from "./helper/pedirDatosPC";
+import { pedirDatosPC } from "./helper/pedirDatosPC"
 import ItemList from "./itemList";
 
 const ItemListContainer = () => {

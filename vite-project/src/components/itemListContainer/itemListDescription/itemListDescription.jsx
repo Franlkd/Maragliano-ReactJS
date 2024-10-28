@@ -1,28 +1,30 @@
-import React from "react";
-import pedirDatosPC from "../helper/pedirDatos"
+import React, { useState } from "react";
+import ItemCount from "./itemCount";
 
-const ItemList = ({}) => {
-
+const ItemDescription = ( {items, stock} ) => {
+    
     
     return(
         <div>
             <h1>
-                Productos:
+                {items[0].Pc_name}
             </h1>
             {
                 items && items.length > 0 ? (
 
                 items.map((item) => {
                     return(
-                        <div key={item.PC} className="product-list">
-                            <h2>CPU: {item.CPU}</h2>
-                            <h2>GPU: {item.GPU}</h2>
-                            <h2>RAM: {item.RAM}</h2>
-                            <h2>Almacenamiento: {item.Almacenamiento}</h2>
-                            <h2>Fuente de Poder: {item.Fuente_de_Poder}</h2>
-                            <h2>Refrigeración: {item.Refrigeración}</h2>
-                            <h2>Placa Madre: {item.Placa_Madre}</h2>
-                            <h2>Gabinete: {item.Gabinete}</h2>
+                        <div key={item.PC} className="descrption-List">
+                            <img src={item.pc_Img} alt={item.PC} className="img"/>
+                            <h2 className="descriptions">CPU: {item.CPU}</h2>
+                            <h2 className="descriptions">GPU: {item.GPU}</h2>
+                            <h2 className="descriptions">RAM: {item.RAM}</h2>
+                            <h2 className="descriptions">Almacenamiento: {item.Almacenamiento}</h2>
+                            <h2 className="descriptions">Fuente de Poder: {item.Fuente_de_Poder}</h2>
+                            <h2 className="descriptions">Refrigeración: {item.Refrigeración}</h2>
+                            <h2 className="descriptions">Placa Madre: {item.Placa_Madre}</h2>
+                            <h2 className="descriptions">Gabinete: {item.Gabinete}</h2>
+                            <ItemCount item={item}/>
                         </div>
                     );
                 })
@@ -34,4 +36,4 @@ const ItemList = ({}) => {
     );
 }
 
-export default ItemList;
+export default ItemDescription;

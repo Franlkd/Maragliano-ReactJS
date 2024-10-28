@@ -2,6 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCoffee, faShoppingBag } from '@fortawesome/free-solid-svg-icons';
 import logo from "./logo/logo.jpg"
+import { Link } from 'react-router-dom'
 
 function Navbar() {
     
@@ -11,15 +12,15 @@ function Navbar() {
         <nav>
             <header>
                 <div className="logo">
-                    <a href="/"><img src={logo} alt="TecnoPC" /></a>
+                    <Link to="/"><img src={logo} alt="TecnoPC" /></Link>
                 </div>
                 <div className="menu-interactive">
                     <ul>
-                        <li><a href="/">Inicio</a></li>
-                        <li><a href="/categorias">Categorías</a></li>
-                        <li><a href="/sobre-nosotros">Sobre Nosotros</a></li>
-                        <li><a href="/contacto">Contacto</a></li>
-                        <li><a href="/carrito">{shoppingBagIcon}</a></li>
+                        <li><Link to="/">Inicio</Link></li>
+                        <li><Link to="/Categorias">Categorías</Link></li>
+                        <li><Link to="/Sobre-Nosotros">Sobre Nosotros</Link></li>
+                        <li><Link to="/Contacto">Contacto</Link></li>
+                        <li><Link to="/Carrito">{shoppingBagIcon}</Link></li>
                     </ul>
                 </div>
             </header>
@@ -27,4 +28,4 @@ function Navbar() {
     );
 }
 
-export default Navbar;
+export default Navbar

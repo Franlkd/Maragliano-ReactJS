@@ -1,9 +1,7 @@
 import React from "react";
-import pedirDatosPC from "./helper/pedirDatosPC";
+import { Link } from "react-router-dom";
 
-const ItemList = ({items}) => {
-
-    console.log(items)
+const ItemList = ({ items }) => {
     
     return(
         <div className="product-container">
@@ -13,7 +11,7 @@ const ItemList = ({items}) => {
                             <img src={item.pc_Img} alt={item.Pc_name} className="imgPC" />
                             <h2>{item.Pc_name}</h2>
                             <h2>${item.price}</h2>
-                            <a href={`/item/${item.Pc_name}`} className="ver-mas">Ver mas</a>
+                            <Link to={`/item/${item.Pc_name}`} className="ver-mas">Ver más</Link>
                         </div>
                 ))
             ) : (

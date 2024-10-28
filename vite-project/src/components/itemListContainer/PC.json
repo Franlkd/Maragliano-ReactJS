@@ -1,47 +1,148 @@
 [
     {
-        "Pc_name" : "PC-GAMER i9 13900k",
+        "stock" : 10,
+        "marca" : "Intel",
+        "Pc_name" : "PC-GAMER Intel i9 13900k",
         "price" : 1500,
-        "pc_Img" : "http://dummyimage.com/200x100.png/ff4444/ffffff"
+        "pc_Img" : "http://dummyimage.com/200x100.png/ff4444/ffffff",
+        "PC": 1,
+        "CPU": "Intel Core i9-13900K",
+        "GPU": "NVIDIA GeForce RTX 4090",
+        "RAM": "32GB DDR5 5200MHz",
+        "Almacenamiento": "1TB NVMe SSD",
+        "Fuente_de_Poder": "850W 80+ Gold",
+        "Refrigeración": "Refrigeración líquida AIO 360mm",
+        "Placa_Madre": "ASUS ROG Strix Z790-E",
+        "Gabinete": "Corsair iCUE 4000X RGB"
+        
     },
     {
-        "Pc_name" : "PC-GAMER Ryzen 9 7950X",
+        "stock" : 10,
+        "marca" : "AMD",
+        "Pc_name" : "PC-GAMER AMD Ryzen 9 7950X",
         "price" : 1500,
-        "pc_Img" : "http://dummyimage.com/200x100.png/ff4444/ffffff"
+        "pc_Img" : "http://dummyimage.com/200x100.png/ff4444/ffffff",
+        "PC": 1,
+        "CPU": "AMD Ryzen 9 7950X",
+        "GPU": "NVIDIA GeForce RTX 4090",
+        "RAM": "32GB DDR5 5200MHz",
+        "Almacenamiento": "1TB NVMe SSD",
+        "Fuente_de_Poder": "850W 80+ Gold",
+        "Refrigeración": "Refrigeración líquida AIO 360mm",
+        "Placa_Madre": "ASUS ROG Strix Z790-E",
+        "Gabinete": "Corsair iCUE 4000X RGB"        
     },
     {
-        "Pc_name" : "PC-GAMER i7 13700k",
+        "stock" : 10,
+        "marca" : "intel",
+        "Pc_name" : "PC-GAMER Intel i7 13700k",
         "price" : 1500,
-        "pc_Img" : "http://dummyimage.com/200x100.png/ff4444/ffffff"
+        "pc_Img" : "http://dummyimage.com/200x100.png/ff4444/ffffff",
+        "PC": 2,
+        "CPU": "Intel Core i7-13700k",
+        "GPU": "AMD Radeon RX 7900 XTX",
+        "RAM": "32GB DDR5 6000MHz",
+        "Almacenamiento": "2TB NVMe SSD",
+        "Fuente_de_Poder": "1000W 80+ Platinum",
+        "Refrigeración": "Refrigeración líquida AIO 360mm",
+        "Placa_Madre": "MSI MPG B650 Carbon WiFi",
+        "Gabinete": "Lian Li PC-O11 Dynamic"        
     },
     {
-        "Pc_name" : "PC-GAMER Ryzen 7 7800X",
+        "stock" : 10,
+        "marca" : "AMD",
+        "Pc_name" : "PC-GAMER AMD Ryzen 7 7800X",
         "price" : 1500,
-        "pc_Img" : "http://dummyimage.com/200x100.png/ff4444/ffffff"
+        "pc_Img" : "http://dummyimage.com/200x100.png/ff4444/ffffff",
+        "PC": 3,
+        "CPU": "AMD Ryzen 7 7800X",
+        "GPU": "NVIDIA GeForce RTX 4070 Ti",
+        "RAM": "16GB DDR4 3600MHz",
+        "Almacenamiento": "1TB NVMe SSD",
+        "Fuente_de_Poder": "750W 80+ Gold",
+        "Refrigeración": "Refrigeración por aire Noctua NH-U12A",
+        "Placa_Madre": "Gigabyte Z690 Aorus Pro",
+        "Gabinete": "NZXT H510 Elite"      
     },
     {
-        "Pc_name" : "PC-GAMER i5 13600k",
+        "stock" : 10,
+        "marca" : "intel",
+        "Pc_name" : "PC-GAMER Intel i5 13600k",
         "price" : 1500,
-        "pc_Img" : "http://dummyimage.com/200x100.png/ff4444/ffffff"
+        "pc_Img" : "http://dummyimage.com/200x100.png/ff4444/ffffff",
+        "PC": 4,
+        "CPU": "Intel Core i5-13600k",
+        "GPU": "NVIDIA GeForce RTX 4080",
+        "RAM": "32GB DDR5 5200MHz",
+        "Almacenamiento": "2TB NVMe SSD",
+        "Fuente_de_Poder": "850W 80+ Platinum",
+        "Refrigeración": "Refrigeración líquida AIO 240mm",
+        "Placa_Madre": "ASRock X670E Taichi",
+        "Gabinete": "Phanteks Eclipse P500A"
     },
     {
-        "Pc_name" : "PC-GAMER Ryzen 5 7600X",
+        "stock" : 10,
+        "marca" : "AMD",
+        "Pc_name" : "PC-GAMER AMD Ryzen 5 7600X",
         "price" : 1500,
-        "pc_Img" : "http://dummyimage.com/200x100.png/ff4444/ffffff"
+        "pc_Img" : "http://dummyimage.com/200x100.png/ff4444/ffffff",
+        "PC": 5,
+        "CPU": "AMD Ryzen 5 7600X",
+        "GPU": "NVIDIA GeForce RTX 3060 Ti",
+        "RAM": "16GB DDR4 3200MHz",
+        "Almacenamiento": "1TB NVMe SSD",
+        "Fuente_de_Poder": "650W 80+ Bronze",
+        "Refrigeración": "Refrigeración por aire be quiet! Pure Rock 2",
+        "Placa_Madre": "MSI MAG B660 Tomahawk",
+        "Gabinete": "Fractal Design Meshify C"
     },
     {
-        "Pc_name" : "PC-GAMER i7 12700F",
+        "stock" : 10,
+        "marca" : "intel",
+        "Pc_name" : "PC-GAMER Intel i7 12700F",
         "price" : 1500,
-        "pc_Img" : "http://dummyimage.com/200x100.png/ff4444/ffffff"
+        "pc_Img" : "http://dummyimage.com/200x100.png/ff4444/ffffff",
+        "PC": 6,
+        "CPU": "Intel Core i7-12700F",
+        "GPU": "AMD Radeon RX 6800 XT",
+        "RAM": "16GB DDR5 5600MHz",
+        "Almacenamiento": "500GB NVMe SSD",
+        "Fuente_de_Poder": "750W 80+ Gold",
+        "Refrigeración": "Refrigeración por aire Cooler Master Hyper 212",
+        "Placa_Madre": "Gigabyte B650 Aorus Elite AX",
+        "Gabinete": "Cooler Master MasterBox TD500 Mesh"
     },
     {
-        "Pc_name" : "PC-GAMER Ryzen 9 5900X",
+        "stock" : 10,
+        "marca" : "AMD",
+        "Pc_name" : "PC-GAMER AMD Ryzen 9 5900X",
         "price" : 1500,
-        "pc_Img" : "http://dummyimage.com/200x100.png/ff4444/ffffff"
+        "pc_Img" : "http://dummyimage.com/200x100.png/ff4444/ffffff",
+        "PC": 7,
+        "CPU": "AMD Ryzen 9 5900X",
+        "GPU": "NVIDIA GeForce RTX 3080",
+        "RAM": "32GB DDR4 3600MHz",
+        "Almacenamiento": "1TB NVMe SSD",
+        "Fuente_de_Poder": "850W 80+ Gold",
+        "Refrigeración": "Refrigeración líquida AIO 240mm",
+        "Placa_Madre": "ASUS TUF Gaming Z690-Plus",
+        "Gabinete": "Corsair 5000D Airflow"
+
     },
     {
-        "Pc_name" : "PC-GAMER Ryzen 5 5600G",
+        "stock" : 10,
+        "marca" : "AMD",
+        "Pc_name" : "PC-GAMER AMD Ryzen 5 5600G",
         "price" : 1500,
-        "pc_Img" : "http://dummyimage.com/200x100.png/ff4444/ffffff"
+        "pc_Img" : "http://dummyimage.com/200x100.png/ff4444/ffffff",
+        "PC": 8,
+        "CPU": "AMD Ryzen 5 5600G",
+        "GPU": "NVIDIA GeForce RTX 3070",
+        "RAM": "32GB DDR4 3600MHz",
+        "Almacenamiento": "1TB NVMe SSD",
+        "Fuente_de_Poder": "750W 80+ Gold",
+        "Refrigeración": "Refrigeración líquida AIO 280mm",
+        "Placa_Madre": "ASUS ROG Strix B550-F",
+        "Gabinete": "Thermaltake Core P3"
     }
 ]

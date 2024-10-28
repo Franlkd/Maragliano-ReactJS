@@ -1,7 +1,6 @@
-import React from "react"
 import datoPC from "../PC.json"
 
-function pedirDatos(){
+export const pedirDatosPC = () => {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             resolve(datoPC)
@@ -9,5 +8,12 @@ function pedirDatos(){
     })
 }
 
+const pedirDatos = () => {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+        resolve(datoPC)
+    }, 500)
+})
+}
 
 export default pedirDatos

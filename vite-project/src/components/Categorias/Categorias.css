@@ -1,0 +1,12 @@
+.img-category {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    place-items: center;
+    align-items: center;
+}
+
+.img-amd-intel{
+    border: rgb(0, 0, 0) solid;
+    border-radius: 30%;
+}
