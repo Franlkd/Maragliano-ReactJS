@@ -1,8 +1,9 @@
-# React + Vite
+Mi proyecto final de react:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Maragliano Franco -
 
-Currently, two official plugins are available:
+En este proyecto lo que podran encontrar es un Ecommerce de ventas de PC gamers ya armadas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+En el proyecto podes encontrar componentes que incluyen sus useStates, useContext, hooks, childrens, useContext con su respectivo cartContext y react router dom.
+
+En vez de usar fireBase, cree mi propio JSON con todos sus datos, descripciones, marca y demas que se pueden apreciar dentro de PC.json

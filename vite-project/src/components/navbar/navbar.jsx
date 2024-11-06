@@ -1,12 +1,10 @@
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee, faShoppingBag } from '@fortawesome/free-solid-svg-icons';
 import logo from "./logo/logo.jpg"
 import { Link } from 'react-router-dom'
+import CartWidget from "../../pages/Carrito/cartWidget";
 
 function Navbar() {
-    
-    const shoppingBagIcon = <FontAwesomeIcon icon={faShoppingBag} />;
+
 
     return (
         <nav>
@@ -20,7 +18,7 @@ function Navbar() {
                         <li><Link to="/Categorias">Categorías</Link></li>
                         <li><Link to="/Sobre-Nosotros">Sobre Nosotros</Link></li>
                         <li><Link to="/Contacto">Contacto</Link></li>
-                        <li><Link to="/Carrito">{shoppingBagIcon}</Link></li>
+                        <li><CartWidget /></li>
                     </ul>
                 </div>
             </header>

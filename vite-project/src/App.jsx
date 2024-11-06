@@ -6,36 +6,41 @@ import './components/itemListContainer/itemList.css'
 import ItemDescriptionContainer from './components/itemListContainer/itemListDescription/itemDescriptionContainer'
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import './components/itemListContainer/itemListDescription/itemDescription.css'
-import Category from './components/Categorias/categorias'
-import Marcas from './components/Categorias/marcas'
-import CartContext from './components/Context/cartContext'
-import { Contacto } from './components/Contacto/Contacto'
-import './components/Categorias/Categorias.css'
-import { SobreNosotros } from './components/sobreNosotros/sobreNosotros'
+import Category from './pages/Categorias/categorias'
+import Marcas from './pages/Categorias/marcas'
+import { Contacto } from './pages/Contacto/Contacto'
+import './pages/Categorias/categorias.css'
+import { SobreNosotros } from './pages/sobreNosotros/sobreNosotros'
+import './pages/Contacto/Contacto.css'
+import Cart from './pages/Carrito/Cart'
+import { CartProvider } from './Context/cartContext'
 
 
 function App() {
-
+  
   return (
-    <>
-    <BrowserRouter>
+    <div>
+      <CartProvider>
 
-      <Navbar />
+        <BrowserRouter>
 
-      <Routes>
-        <Route path="/" element={<ItemListContainer />} />
-        <Route path="/item/:Pc_name" element={<ItemDescriptionContainer/>} />
-        <Route path='/categorias' element={<Category />} />
-        <Route path='/marcas/:marca' element={<Marcas />} />
-        <Route path='/carrito' element={<CartContext />} />
-        <Route path='/Contacto' element={<Contacto />} />
-        <Route path='/Sobre-Nosotros' element={<SobreNosotros />} />
-      </Routes>
+          <Navbar />
 
-    </BrowserRouter>
+          <Routes>
+            <Route path="/" element={<ItemListContainer />} />
+            <Route path="/item/:Pc_name" element={<ItemDescriptionContainer />} />
+            <Route path="/categorias" element={<Category />} />
+            <Route path="/marcas/:marca" element={<Marcas />} />
+            <Route path="/carrito" element={<Cart />} />
+            <Route path="/Contacto" element={<Contacto />} />
+            <Route path="/Sobre-Nosotros" element={<SobreNosotros />} />
+          </Routes>
 
-    </>
-  )
+        </BrowserRouter>
+
+      </CartProvider>
+    </div>
+  );
 }
 
-export default App
+export default App;

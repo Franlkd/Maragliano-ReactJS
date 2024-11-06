@@ -1,0 +1,84 @@
+/* Estilos generales */
+.container-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.main-contact {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.titulo {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.main-contact p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Estilos para el formulario */
+.Forms {
+    width: 100%;
+    max-width: 500px;
+}
+
+.Formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.textInput {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+.textInput:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+textarea {
+    width: 100%;
+    max-width: 500px;
+    height: 150px; /* Altura fija */
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #333;
+    resize: none; /* Evita que se pueda redimensionar */
+    transition: all 0.3s ease;
+}
+
+.enviar {
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.enviar:hover {
+    background-color: #0056b3;
+}
+

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import pedirDatosPC from '../itemListContainer/helper/pedirDatosPC';
-import ItemList from '../itemListContainer/itemList';
+import pedirDatosPC from '../../components/itemListContainer/helper/pedirDatosPC';
+import ItemList from '../../components/itemListContainer/itemList';
 
 
 const Marcas = () => {

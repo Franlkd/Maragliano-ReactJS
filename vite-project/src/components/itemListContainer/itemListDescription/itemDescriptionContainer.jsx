@@ -7,6 +7,7 @@ function ItemDescriptionContainer({items}) {
   const [item, setItem] = useState(null);
   const { Pc_name } = useParams(); 
 
+
   useEffect(() => {
     pedirDatos()
       .then((res) => {
