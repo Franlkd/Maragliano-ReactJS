@@ -14,6 +14,7 @@ import { SobreNosotros } from './pages/sobreNosotros/sobreNosotros'
 import './pages/Contacto/Contacto.css'
 import Cart from './pages/Carrito/Cart'
 import { CartProvider } from './Context/cartContext'
+import Footer from './components/footer/footer'
 
 
 function App() {
@@ -35,6 +36,8 @@ function App() {
             <Route path="/Contacto" element={<Contacto />} />
             <Route path="/Sobre-Nosotros" element={<SobreNosotros />} />
           </Routes>
+
+          <Footer />
 
         </BrowserRouter>
 

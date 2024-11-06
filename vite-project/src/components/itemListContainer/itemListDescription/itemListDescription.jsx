@@ -3,7 +3,7 @@ import ItemCount from "./itemCount";
 
 const ItemDescription = ( {items, stock} ) => {
     
-    
+
     return(
         <div>
             <h1>
@@ -15,7 +15,7 @@ const ItemDescription = ( {items, stock} ) => {
                 items.map((item) => {
                     return(
                         <div key={item.PC} className="descrption-List">
-                            <img src={item.pc_Img} alt={item.PC} className="img"/>
+                            <img src={item.pc_Img} alt={item.Pc_name} className="img"/>
                             <h2 className="descriptions">CPU: {item.CPU}</h2>
                             <h2 className="descriptions">GPU: {item.GPU}</h2>
                             <h2 className="descriptions">RAM: {item.RAM}</h2>

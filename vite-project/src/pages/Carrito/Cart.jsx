@@ -27,6 +27,7 @@ function Cart() {
             {
                 carrito.map((item) => (
                     <div className="product-list" key={item.marca}>
+                        <img src={item.pc_Img} alt={item.Pc_name} />
                         <h2>{item.Pc_name}</h2>
                         <h2>Precio: ${item.price}</h2>
                         {item.cantidad > 1 && <h2>

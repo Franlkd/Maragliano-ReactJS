@@ -1,15 +1,15 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import pedirDatos from "../helper/pedirDatosPC";
+import pedirDatosPC from "../helper/pedirDatosPC";
 import ItemDescription from "../itemListDescription/itemListDescription";
 
 function ItemDescriptionContainer({items}) {
-  const [item, setItem] = useState(null);
+  const [item, setItem] = useState();
   const { Pc_name } = useParams(); 
 
 
   useEffect(() => {
-    pedirDatos()
+    pedirDatosPC()
       .then((res) => {
         const selectedItem = res.find((item) => item.Pc_name === Pc_name);
         setItem(selectedItem);

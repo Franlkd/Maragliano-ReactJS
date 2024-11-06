@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #666666;
+    background-image: linear-gradient(to left, rgba(183, 36, 36, 0.797), rgba(167, 134, 200, 0.797));
 }
 
 .cartCantidad {
@@ -29,4 +29,22 @@ body {
     justify-content: center;
     align-items: center;
     gap: 15px;
+}
+
+.compraForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 30%;
+    place-items: center;
+    padding: 30px;
+}
+
+.footer-Container {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    font-size: 19px;
+    border-top: 1px solid black;
+    padding: 10px;
 }
